@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>864</width>
+    <height>681</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gestor de Alumnos</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/rsc/Iconos/alumno.png</normalon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 75 12pt &quot;Calibri&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="pestanias">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>851</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Añadir alumno</string>
+    </property>
+    <property name="statusTip">
+     <string>Añadir alumno</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#CACFD2</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Rounded</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="AniadirModificarEliminar">
+     <attribute name="icon">
+      <iconset>
+       <normalon>:/rsc/Iconos/alumno.png</normalon>
+      </iconset>
+     </attribute>
+     <attribute name="title">
+      <string>Base de Datos de Alumnos</string>
+     </attribute>
+     <attribute name="toolTip">
+      <string>Añadir, modificar o eliminar alumnos</string>
+     </attribute>
+     <widget class="QWidget" name="formLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>491</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="2" column="0">
+        <widget class="QLabel" name="labelDNI">
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;Calibri&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>DNI:</string>
+         </property>
+         <property name="buddy">
+          <cstring>lineEdit_DNI</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="lineEdit_DNI">
+         <property name="toolTip">
+          <string>DNI</string>
+         </property>
+         <property name="statusTip">
+          <string>DNI</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_Nombre">
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;Calibri&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Nombre:</string>
+         </property>
+         <property name="buddy">
+          <cstring>lineEdit_Nombre</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="lineEdit_Nombre">
+         <property name="toolTip">
+          <string>Nombre</string>
+         </property>
+         <property name="statusTip">
+          <string>Nombre</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_Apellidos">
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;Calibri&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Apellidos:</string>
+         </property>
+         <property name="buddy">
+          <cstring>lineEdit_Apellidos</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="lineEdit_Apellidos">
+         <property name="toolTip">
+          <string>Apellidos</string>
+         </property>
+         <property name="statusTip">
+          <string>Apellidos</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_Curso">
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;Calibri&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Curso:</string>
+         </property>
+         <property name="buddy">
+          <cstring>lineEdit_Curso</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="lineEdit_Curso">
+         <property name="toolTip">
+          <string>Curso</string>
+         </property>
+         <property name="statusTip">
+          <string>Curso</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="label_Nota1Ev">
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;Calibri&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Nota Primera Evaluación:</string>
+         </property>
+         <property name="buddy">
+          <cstring>lineEdit_Nota1Ev</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QLineEdit" name="lineEdit_Nota1Ev">
+         <property name="toolTip">
+          <string>Nota Primera Evaluacion</string>
+         </property>
+         <property name="statusTip">
+          <string>Nota Primera Evaluación</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="label_Nota2Ev">
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;Calibri&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Nota Segunda Evaluación:</string>
+         </property>
+         <property name="buddy">
+          <cstring>lineEdit_Nota2Ev</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QLineEdit" name="lineEdit_Nota2Ev">
+         <property name="toolTip">
+          <string>Nota Segunda Evaluacion</string>
+         </property>
+         <property name="statusTip">
+          <string>Nota Segunda Evaluacion</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="0">
+        <widget class="QLabel" name="label_Nota3Ev">
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;Calibri&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Nota Tercera Evaluación: </string>
+         </property>
+         <property name="buddy">
+          <cstring>lineEdit_Nota3Ev</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QLineEdit" name="lineEdit_Nota3Ev">
+         <property name="statusTip">
+          <string>Nota Tercera Evaluacion</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>20</y>
+        <width>201</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="botonAniadirAlumno">
+         <property name="toolTip">
+          <string>Añadir alumno</string>
+         </property>
+         <property name="statusTip">
+          <string>Añadir alumno</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+ border: 2px solid whitesmoke;
+ border-radius: 5px;
+ background-color: rgb(70, 208, 205);
+ padding: 10px;
+ margin: 10px;
+font: 75 12pt &quot;Calibri&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>Añadir</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normalon>:/rsc/Iconos/añadir.png</normalon>
+          </iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="botonModificar">
+         <property name="toolTip">
+          <string>Modificar Alumno</string>
+         </property>
+         <property name="statusTip">
+          <string>Modificar Alumno</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+ border: 2px solid whitesmoke;
+ border-radius: 5px;
+ background-color: rgb(70, 208, 205);
+ padding: 10px;
+ margin: 10px;
+font: 75 12pt &quot;Calibri&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>Modificar</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normalon>:/rsc/Iconos/editar.png</normalon>
+          </iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="boton_Eliminar">
+         <property name="toolTip">
+          <string>Eliminar Alumno</string>
+         </property>
+         <property name="statusTip">
+          <string>Eliminar alumno</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+ border: 2px solid whitesmoke;
+ border-radius: 5px;
+ background-color: rgb(70, 208, 205);
+ padding: 10px;
+ margin: 10px;
+font: 75 12pt &quot;Calibri&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>Eliminar</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normalon>:/rsc/Iconos/eliminar.png</normalon>
+          </iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QTableView" name="tableView_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>320</y>
+        <width>821</width>
+        <height>221</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="InformeAlumno">
+     <attribute name="icon">
+      <iconset>
+       <normalon>:/rsc/Iconos/pdf.png</normalon>
+      </iconset>
+     </attribute>
+     <attribute name="title">
+      <string>Informe del alumno</string>
+     </attribute>
+     <attribute name="toolTip">
+      <string>Informe del Alumno</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>864</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:(255, 255, 255)</string>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionAniadir"/>
+    <addaction name="actionModificarAlumno"/>
+    <addaction name="actionEliminar"/>
+    <addaction name="separator"/>
+    <addaction name="actionGenerar_Informe"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionAniadir"/>
+   <addaction name="actionModificarAlumno"/>
+   <addaction name="actionEliminar"/>
+   <addaction name="actionGenerar_Informe"/>
+  </widget>
+  <action name="actionAniadir">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/rsc/Iconos/añadir.png</normaloff>:/rsc/Iconos/añadir.png</iconset>
+   </property>
+   <property name="text">
+    <string>Añadir alumno</string>
+   </property>
+   <property name="toolTip">
+    <string>Añadir Alumno</string>
+   </property>
+   <property name="statusTip">
+    <string>Añadir Alumno</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionEliminar">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/rsc/Iconos/eliminar.png</normaloff>:/rsc/Iconos/eliminar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Eliminar alumno</string>
+   </property>
+   <property name="toolTip">
+    <string>Eliminar Alumno</string>
+   </property>
+   <property name="statusTip">
+    <string>Eliminar Alumno</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionModificarAlumno">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/rsc/Iconos/editar.png</normaloff>:/rsc/Iconos/editar.png</iconset>
+   </property>
+   <property name="text">
+    <string>ModificarAlumno</string>
+   </property>
+   <property name="toolTip">
+    <string>Modificar registro del alumno</string>
+   </property>
+   <property name="statusTip">
+    <string>Modificar registro</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+M</string>
+   </property>
+  </action>
+  <action name="actionGenerar_Informe">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/rsc/Iconos/pdf.png</normaloff>:/rsc/Iconos/pdf.png</iconset>
+   </property>
+   <property name="text">
+    <string>Generar Informe</string>
+   </property>
+   <property name="toolTip">
+    <string>Generar Informe</string>
+   </property>
+   <property name="statusTip">
+    <string>Generar Informe</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionModificarAlumno</sender>
+   <signal>changed()</signal>
+   <receiver>pestanias</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>400</x>
+     <y>326</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAniadir</sender>
+   <signal>changed()</signal>
+   <receiver>pestanias</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>400</x>
+     <y>326</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionEliminar</sender>
+   <signal>changed()</signal>
+   <receiver>pestanias</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>400</x>
+     <y>326</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

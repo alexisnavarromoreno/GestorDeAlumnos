@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="rsc">
+    <file>Iconos/alumno.png</file>
+    <file>Iconos/eliminar.png</file>
+    <file>Iconos/limpiar.png</file>
+    <file>Iconos/pdf.png</file>
+    <file>Iconos/editar.png</file>
+    <file>Iconos/añadir.png</file>
+  </qresource>
+</RCC>
