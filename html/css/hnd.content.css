@@ -1,0 +1,422 @@
+/* ========== Text Styles ========== */
+hr { color: #000000}
+.main-content, .main-content table span.rvts0 /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* Heading */
+{
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts2 /* Subheading */
+{
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts3 /* Keywords */
+{
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+span.rvts6 /* Font Style */
+{
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #c0c0c0;
+}
+a.rvts7, span.rvts7 /* Font Style */
+{
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #6666ff;
+ text-decoration: underline;
+}
+span.rvts8
+{
+}
+span.rvts9
+{
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts10
+{
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts11
+{
+ font-style: italic;
+ color: #800000;
+}
+a.rvts12, span.rvts12
+{
+ color: #008000;
+ text-decoration: underline;
+}
+span.rvts13
+{
+ font-size: 24pt;
+ font-family: 'Segoe UI Black';
+ font-weight: bold;
+ color: #00a5ff;
+ text-decoration: underline;
+}
+span.rvts14
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+}
+span.rvts15
+{
+ font-size: 20pt;
+ font-weight: bold;
+ color: #00a5ff;
+}
+span.rvts16
+{
+ font-size: 28pt;
+ font-weight: bold;
+ color: #ffffff;
+ background-color: #7f7f7f;
+}
+span.rvts17
+{
+ font-size: 14pt;
+ color: #000000;
+}
+span.rvts18
+{
+ font-size: 14pt;
+ font-weight: bold;
+ color: #000000;
+ text-decoration: underline;
+}
+span.rvts19
+{
+ font-size: 14pt;
+ color: #000000;
+}
+span.rvts20
+{
+ font-size: 28pt;
+ color: #ffffff;
+ background-color: #7f7f7f;
+}
+span.rvts21
+{
+ font-size: 28pt;
+ color: #ffffff;
+ background-color: #33b7ff;
+}
+span.rvts22
+{
+ font-size: 14pt;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts23
+{
+ font-size: 28pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+}
+span.rvts24
+{
+ font-size: 20pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+}
+span.rvts25
+{
+ font-size: 28pt;
+ font-family: 'Segoe UI';
+}
+span.rvts26
+{
+ font-family: 'Segoe UI';
+}
+span.rvts27
+{
+ font-size: 14pt;
+ font-weight: bold;
+}
+span.rvts28
+{
+ font-size: 14pt;
+}
+span.rvts29
+{
+ font-size: 14pt;
+}
+span.rvts30
+{
+ font-size: 14pt;
+}
+span.rvts31
+{
+ font-size: 14pt;
+ font-weight: bold;
+}
+span.rvts32
+{
+ font-size: 14pt;
+ color: ;
+}
+span.rvts33
+{
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts34, span.rvts34
+{
+ font-size: 14pt;
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.rvts35
+{
+ font-size: 14pt;
+ font-weight: bold;
+ color: #33b7ff;
+}
+span.rvts36
+{
+ font-size: 20pt;
+ font-weight: bold;
+ color: #ffffff;
+ background-color: #7f7f7f;
+}
+span.rvts37
+{
+ font-size: 20pt;
+ font-weight: bold;
+ color: #ffffff;
+ background-color: #33b7ff;
+}
+span.rvts38
+{
+ font-size: 20pt;
+ color: #ffffff;
+ background-color: #7f7f7f;
+}
+span.rvts39
+{
+ font-size: 20pt;
+ font-weight: bold;
+ color: ;
+}
+span.rvts40
+{
+ font-size: 28pt;
+ color: #ffffff;
+ background-color: #7f7f7f;
+}
+span.rvts41
+{
+ font-size: 28pt;
+ font-family: 'Segoe UI';
+}
+span.rvts42
+{
+ font-size: 28pt;
+ color: #ffffff;
+ background-color: #33b7ff;
+}
+span.rvts43
+{
+ font-size: 14pt;
+ color: ;
+}
+span.rvts44
+{
+ font-size: 14pt;
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.rvts45
+{
+ font-size: 14pt;
+ color: ;
+}
+span.rvts46
+{
+ font-size: 14pt;
+ font-weight: bold;
+ color: ;
+}
+span.rvts47
+{
+ font-size: 14pt;
+ color: #333333;
+}
+span.rvts48
+{
+ font-size: 14pt;
+ font-weight: bold;
+ color: #333333;
+}
+a.rvts49, span.rvts49
+{
+ font-size: 14pt;
+ color: #4183c4;
+ text-decoration: none;
+}
+span.rvts50
+{
+ font-size: 18pt;
+ color: #ffffff;
+ background-color: #33b7ff;
+}
+span.rvts51
+{
+ font-size: 18pt;
+ color: #ffffff;
+ background-color: #7f7f7f;
+}
+span.rvts52
+{
+ font-size: 18pt;
+ color: #ffffff;
+ background-color: #33b7ff;
+}
+span.rvts53
+{
+ font-size: 18pt;
+ color: #ffffff;
+ background-color: #7f7f7f;
+}
+span.rvts54
+{
+ font-size: 14pt;
+ font-weight: bold;
+ color: ;
+ text-decoration: underline;
+}
+span.rvts55
+{
+ font-size: 14pt;
+ color: #202124;
+ background-color: #ffffff;
+}
+span.rvts56
+{
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+.rvps2 /* Paragraph Style */
+{
+ text-align: center;
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: 1px;
+ border-right: none;
+ border-left: none;
+ padding: 2px 0px 2px 0px;
+ margin: 7px 0px 7px 0px;
+}
+.rvps3
+{
+}
+.rvps4
+{
+ text-align: center;
+}
+.rvps5
+{
+ margin: 0px 0px 0px 24px;
+}
+.rvps6
+{
+ text-align: center;
+ margin: 0px 0px 0px 72px;
+}
+.rvps7
+{
+ margin: 0px 0px 0px 72px;
+}
+.rvps8
+{
+ text-align: justify;
+ text-justify: inter-word;
+ text-align-last: auto;
+ margin: 0px 0px 0px 72px;
+}
+.rvps9
+{
+}
+.rvps10
+{
+ text-align: center;
+}
+.rvps11
+{
+ text-align: center;
+ margin: 0px 0px 0px 96px;
+}
+.rvps12
+{
+ margin: 0px 0px 0px 96px;
+}
+.rvps13
+{
+ margin: 0px 0px 0px 96px;
+}
+.rvps14
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 96px;
+}
+.rvps15
+{
+ text-align: justify;
+ text-justify: inter-word;
+ text-align-last: auto;
+ margin: 0px 0px 0px 96px;
+}
+.rvps16
+{
+ text-indent: 48px;
+ margin: 0px 0px 0px 96px;
+}
+.rvps17
+{
+ text-indent: 48px;
+ background: #ffffff;
+ margin: 0px 0px 14px 48px;
+}
+/* ========== Lists ========== */
+.list0 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;}
+.list1 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;}
+.list2 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;}
+.list3 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;}
