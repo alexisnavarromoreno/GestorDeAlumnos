@@ -1,0 +1,24 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2022-02-04T17:29:46+01:00",
+  "id": "id_codelab_gestordealumnos",
+  "duration": 0,
+  "title": "",
+  "summary": "Tutorial de la aplicación Gestor de Alumnos",
+  "source": "codelab.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "primera impresion",
+    "principales funciones de la interfaz"
+  ],
+  "tags": [
+    "web"
+  ],
+  "url": "id_codelab_gestordealumnos"
+}

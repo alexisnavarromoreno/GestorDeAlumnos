@@ -1,0 +1,399 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Tour APP Gestor de Alumnos",
+  "steps": [
+    {
+      "file": "Trabajo5.py",
+      "description": " - db = QSqlDatabase.addDatabase(\"QSQLITE\")   \r\n * Agrega una base de datos a la lista de conexiones de base de datos utilizando el tipo de controlador y el nombre de conexión nombreConexión. Si ya existe una conexión de base de datos llamada nombreConexión, esa conexión se elimina.\r\n\r\n  - db.setDatabaseName(\"BDDalumnos.db\")     \r\n * Establece el nombre de la base de datos de la conexión en name. Para que tenga efecto, el nombre de la base de datos debe establecerse antes de que se abra la conexión.\r\n \r\n  - deb.open()\r\n * Abre la conexión de la base de datos utilizando los valores de conexión actuales.\r\n\r\n",
+      "line": 21,
+      "selection": {
+        "start": {
+          "line": 21,
+          "character": 1
+        },
+        "end": {
+          "line": 23,
+          "character": 10
+        }
+      }
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 54,
+          "character": 9
+        },
+        "end": {
+          "line": 55,
+          "character": 57
+        }
+      },
+      "description": "* self.botonAniadirAlumno.clicked.connect(self.nueva)\r\n -> Conecta el botón añadir alumno con la ejecución del método nueva\r\n* self.actionAniadir.triggered.connect(self.nueva)\r\n -> Conecta la acción actionAniadir con la ejecución del método nueva"
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 56,
+          "character": 9
+        },
+        "end": {
+          "line": 57,
+          "character": 57
+        }
+      },
+      "description": "* self.actionEliminar.triggered.connect(self.borrar)\r\n -> Conecta la acción actionEliminar con la ejecución del método self.borrar\r\n\r\n* self.boton_Eliminar.clicked.connect(self.borrar)\r\n -> Conecta el botón eliminar con la ejecución del método self.borrar"
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 58,
+          "character": 9
+        },
+        "end": {
+          "line": 58,
+          "character": 67
+        }
+      },
+      "description": "* self.actionGenerar_Informe.triggered.connect(self.informe)\r\n -> Conecta la acción generar infotme con la ejecución del método informe"
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 64,
+          "character": 9
+        },
+        "end": {
+          "line": 67,
+          "character": 74
+        }
+      },
+      "description": "* Creamos un wizard, establecemos su estilo y le agregamos marca de agua y banner."
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 69,
+          "character": 9
+        },
+        "end": {
+          "line": 75,
+          "character": 51
+        }
+      },
+      "description": "* Creamos la primera página del wizard, establecemos su título y subtítulo, añadimos una etiqueta     y un combobox."
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 77,
+          "character": 9
+        },
+        "end": {
+          "line": 81,
+          "character": 40
+        }
+      },
+      "description": "* Añadimos al layout la etiqueta y el combobox y recogemos el campo del combobox, una vez hecho esto \r\n  añadimos la página al wizard."
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 104,
+          "character": 8
+        },
+        "end": {
+          "line": 105,
+          "character": 46
+        }
+      },
+      "description": "* Cogemos la variable del botón finish y lo conectamos con la ejecución del método self.generate"
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 107,
+          "character": 4
+        },
+        "end": {
+          "line": 110,
+          "character": 27
+        }
+      },
+      "description": "* Función que establece el subtítulo de la página 1 como el DNI del alumno seleccionado y muestra el wizard."
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 112,
+          "character": 1
+        },
+        "end": {
+          "line": 144,
+          "character": 86
+        }
+      },
+      "description": "* Añade una nueva fila al modelo"
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 146,
+          "character": 5
+        },
+        "end": {
+          "line": 168,
+          "character": 27
+        }
+      },
+      "description": "* Establece los datos de los lineEdit del formulario con los valores de la fila seleccionada en el\r\n  modelo."
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 170,
+          "character": 1
+        },
+        "end": {
+          "line": 183,
+          "character": 84
+        }
+      },
+      "description": "* Elimina un registro de la base de datos y a su vez del tableView, además pone los lineEdit en blanco."
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 185,
+          "character": 1
+        },
+        "end": {
+          "line": 206,
+          "character": 101
+        }
+      },
+      "description": "* Modifica los datos de un registro ya existente en la base de datos."
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 208,
+          "character": 1
+        },
+        "end": {
+          "line": 294,
+          "character": 78
+        }
+      },
+      "description": "* Genera el PDF con las notas del alumno y genera la gráfica exportandola a .png y luego la inserta en el PDF también embebe el PDF en la aplicación dentro de la pestaña Informe Alumno."
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 296,
+          "character": 1
+        },
+        "end": {
+          "line": 309,
+          "character": 1
+        }
+      },
+      "description": "* Habilitamos la pestaña InformeAlumno le establecemos un layout y embebemos el pdf cargandolo desde la ruta dentro del directorio."
+    },
+    {
+      "file": "Trabajo5.py",
+      "description": " - Utilizado para construir el árbol de widgets en el widget principal",
+      "line": 30,
+      "selection": {
+        "start": {
+          "line": 30,
+          "character": 9
+        },
+        "end": {
+          "line": 30,
+          "character": 27
+        }
+      }
+    },
+    {
+      "file": "Trabajo5.py",
+      "description": "* Crea un QSqlRelationalTableModel vacío y establece el padre a padre y la conexión de la base de datos a db.",
+      "line": 32,
+      "selection": {
+        "start": {
+          "line": 32,
+          "character": 9
+        },
+        "end": {
+          "line": 32,
+          "character": 54
+        }
+      }
+    },
+    {
+      "file": "Trabajo5.py",
+      "description": "* Establece la tabla del modelo.",
+      "line": 33,
+      "selection": {
+        "start": {
+          "line": 33,
+          "character": 9
+        },
+        "end": {
+          "line": 33,
+          "character": 40
+        }
+      }
+    },
+    {
+      "file": "Trabajo5.py",
+      "description": "* Hace el select de la tabla.",
+      "line": 34,
+      "selection": {
+        "start": {
+          "line": 34,
+          "character": 9
+        },
+        "end": {
+          "line": 34,
+          "character": 29
+        }
+      }
+    },
+    {
+      "file": "Trabajo5.py",
+      "description": "* Establece las cabeceras del modelo.",
+      "line": 36,
+      "selection": {
+        "start": {
+          "line": 36,
+          "character": 1
+        },
+        "end": {
+          "line": 42,
+          "character": 65
+        }
+      }
+    },
+    {
+      "file": "Trabajo5.py",
+      "description": "* Le asigna un modelo a nuestra tabla (self.tableView_2)",
+      "line": 44,
+      "selection": {
+        "start": {
+          "line": 44,
+          "character": 9
+        },
+        "end": {
+          "line": 44,
+          "character": 47
+        }
+      }
+    },
+    {
+      "file": "Trabajo5.py",
+      "description": "* Redimensiona las columnas al contenido.",
+      "line": 45,
+      "selection": {
+        "start": {
+          "line": 45,
+          "character": 9
+        },
+        "end": {
+          "line": 45,
+          "character": 51
+        }
+      }
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 47,
+          "character": 1
+        },
+        "end": {
+          "line": 48,
+          "character": 76
+        }
+      },
+      "description": "* Establecemos que solo se puedan seleccionar las filas y no las columnas por separado."
+    },
+    {
+      "file": "Trabajo5.py",
+      "description": "* Establecemos que al seleccionar una fila de la tabla, ejecute el método self.seleccion",
+      "line": 50
+    },
+    {
+      "file": "Trabajo5.py",
+      "description": "* Enlaza el botón modificar con la ejecución de self.modificar",
+      "line": 52,
+      "selection": {
+        "start": {
+          "line": 52,
+          "character": 9
+        },
+        "end": {
+          "line": 52,
+          "character": 60
+        }
+      }
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 54,
+          "character": 9
+        },
+        "end": {
+          "line": 55,
+          "character": 57
+        }
+      },
+      "description": "* Conecta tanto la actionAniadir y el botonAniadirAlumno a la ejecucion de self.nueva"
+    },
+    {
+      "file": "Trabajo5.py",
+      "selection": {
+        "start": {
+          "line": 56,
+          "character": 9
+        },
+        "end": {
+          "line": 57,
+          "character": 57
+        }
+      },
+      "description": "* Conecta tanto la actionEliminar como el boton_Eliminar con la ejecución de self.borrar"
+    },
+    {
+      "file": "Trabajo5.py",
+      "description": "* También conecta la acción modificar con la ejecución de self.modificar",
+      "line": 53,
+      "selection": {
+        "start": {
+          "line": 53,
+          "character": 9
+        },
+        "end": {
+          "line": 53,
+          "character": 69
+        }
+      }
+    }
+  ]
+}

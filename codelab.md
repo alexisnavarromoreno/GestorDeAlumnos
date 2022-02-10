@@ -1,51 +1,65 @@
 author: Alexis Navarro Moreno
 summary: Tutorial de la aplicación Gestor de Alumnos
-id: identificador-codelab-gestordealumnos
+id: id_codelab_gestordealumnos
 categories: primera impresion, principales funciones de la interfaz
 environments: Web
 status: Published
 
-# Tutorial de la aplicación gestor de alumnos
+## Tutorial de generación de PDF con la aplicación Gestor de Alumnos
 
-## Sección 1
-### Cajas de información
-Texto plano dentro de cajas de información verdes y amarillas
+A continuación le explicaremos los pasos a seguir para generar un PDF del alumno
+seleccionado.
 
-Negative
-: Esto aparecerá en una caja de información amarilla.
+## Pantalla principal
 
-Positive
-: Esto aparecerá en una caja de información verde.
+   ![Pantalla principal Gestor de Alumnos](imgTutorial/PantallaPrincipal.PNG)
+Esta es la pantalla principal de la aplicación Gestor de alumnos, a partir de ella explicaremos en cómodos pasos como generar un PDF con los datos del alumno escogido.
 
-¡Ya tienes tus cajas de información creadas!
+## Paso 1
 
-### Lista con viñetas
-Texto plano en una lista con viñetas:
+Primero seleccionamos un alumno de la tabla de alumnos:
+   ![Tabla de alumnos](imgTutorial/TablaAlumnos.PNG)
 
-* Hola
-* CodeLab
-* Mundo
+## Paso 2
 
-¡Ya tienes tu lista con viñetas creada!
+A continuación pulsamos el botón generar PDF:
 
-### Lista numerada
-1. Lista
-2. Utilizando
-3. Números
+   ![Botón generar imágen](imgTutorial/BotonGenerarInforme.PNG)
 
-¡Ya tienes tu lista numerada creada!
+## Paso 3
 
-## Sección 2
+Nos llevará a un asistente que nos ayudará a genererar nuestro PDF con dos sencillos pasos:
+   
+   Primero nos preguntará si deseamos generar la nota final del alumno. Seleccionamos una opción y pulsamos next.
+   
+   ![Generar la nota final del alumno](imgTutorial/WizardGenerarNotaFinal.PNG)
+   
+   Después nos preguntará si deseamos generar una gráfica con las notas del alumno. Seleccionamos una opción y pulsamos next.
+   
+   ![Generar gráficas](imgTutorial/WizardGenerarGraficas.PNG)
 
-### Añade un enlace
-¡Añadiendo un enlace!
-[Ejemplo de enlace](https://www.davidlms.com)
+   Por último pulsamos finalizar.
+    
+   ![Generar gráficas](imgTutorial/WizardFinalizar.PNG)  
 
-### Añade una imagen
-¡Añadiendo una imagen!
+## Paso 4
 
-![Descripción de la imagen](img/prueba.png)
+Si hemos elegido generar la gráfica nos saldrá una ventana con la gráfica del alumno:
 
-### Incrusta un iframe
+   ![Generar gráficas](imgTutorial/VentanaGrafica.PNG) 
 
-![https://codepen.io/tzoght/embed/yRNZaP](https://en.wikipedia.org/wiki/File:Example.jpg "Try Me Publisher")
+## Paso 5
+
+Podremos visualizar la gráfica tanto en la propia aplicación desde la pestaña Informe 
+del alumno:
+
+   ![Generar gráficas](imgTutorial/InformeEmbebido.PNG) 
+
+Como en la propia carpeta de la aplicación en un archivo PDF. 
+
+## Enlace al Manual de Uso y Referencia de la aplicación.
+
+Le animo a visitar la web del manual de uso y referencia de la aplicación
+¡Accede en caso de más dudas!
+
+[Manual de uso y referencia](https://alexisnavarromoreno.github.io/GestorDeAlumnos/Manualdeusoyreferencia.html)
